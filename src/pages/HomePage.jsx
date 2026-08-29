@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <>
-      <div>Home Page</div>
+      <div>::Home Page::</div>
       {user ? <p>Welcome,{user.name}!</p> : <p>User is not logged in</p>}
       <p>Name: {user.name}</p>
     </>
